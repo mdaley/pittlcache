@@ -1,4 +1,4 @@
-(defproject pittlcache "0.1.0-SNAPSHOT"
+(defproject pittlcache "0.1.0"
   :description "Simple per item TTL cache based on clojure/core.cache"
   :url "http://github.com/mdaley/pittlcache"
   :license {:name "Eclipse Public License"
