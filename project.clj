@@ -5,6 +5,9 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/core.cache "0.6.4"]]
-
+  :scm {:name "git"
+        :url "https://github.com/mdaley/pittlcache"}
+  :repositories [["releases" {:url "https://clojars.org/repo"
+                              :creds :gpg}]]
   :profiles {:dev {:dependencies [[midje "1.6.3"]]
                    :plugins [[lein-midje "3.1.3"]]}})
